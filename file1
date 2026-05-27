@@ -6,5 +6,3 @@ search /etc/passwd using locate
 delete .sh file using find 
 find all files owned by your username 
 compare find and locate practicallty 
-data added 
-issue is merge conflict 
