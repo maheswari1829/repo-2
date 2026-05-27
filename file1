@@ -1,0 +1,8 @@
+1.create 5 files and 3 directories 
+find all .txt files ,
+find empty files,
+create a 20 mb file and searchit
+search /etc/passwd using locate 
+delete .sh file using find 
+find all files owned by your username 
+compare find and locate practicallty 
