@@ -6,3 +6,10 @@ search /etc/passwd using locate
 delete .sh file using find 
 find all files owned by your username 
 compare find and locate practicallty 
+
+Discard old builds-	If we want to discard old builds while starting the execution of the new build then we select this option.
+GitHub Project	This option specifies that we are running our build with GitHub. We specify the URL of the GitHub project.
+This project is parameterized	If we want to run our build with different parameters that would be passed during run time then we will use this option. Every parameter has some Name as well as Value.
+Throttle builds	This option enforces a minimum time between builds based on the desired maximum rate.
+Disable this project	If this option will be checked then no new build of this project will be executed.
+Execute concurrent builds if necessary	If this option will be checked then we can execute multiple builds of this project in parallel.
