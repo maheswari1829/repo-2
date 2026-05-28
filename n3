@@ -1,3 +1,11 @@
 sudo chkconfig nexus on
 sudo systemctl start nexus
 sudo systemctl status nexus
+[Service]
+Type=forking
+LimitNOFILE=65536
+User=nexus
+Group=nexus
+ExecStart=/app/nexus/bin/nexus start
+ExecStop=/app/nexus/bin/nexus stop
+Restart=on-abort
